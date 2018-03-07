@@ -1,0 +1,19 @@
+body{
+  margin-top:70px;
+  background: DARKSLATEGRAY;
+  color: white;
+}
+#output{
+  color: white;
+}
+.km{
+  background-color: FORESTGREEN;
+}
+
+.yd {
+  background-color: LIGHTCORAL;
+}
+
+.ft {
+  background-color: MEDIUMSLATEBLUE;
+}

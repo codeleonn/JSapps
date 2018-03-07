@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Distance Converter</title>
+    
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h1 class="display-4 text-center mb-3">Distance Converter</h1>
+      <form>
+        <div class="form-group">
+          <input id="milesInput" type="number" class="form-control form-control-lg" placeholder="Enter Miles...">
+        </div>
+      </form>
+      <!-- Output tags -->
+      <div id="output" class="text-center">
+        <div class="card card-primary mb-2 km">
+          <div class="card-block">
+            <h4>Kilometers:</h4>
+            <div id="kmOutput"></div>
+          </div>
+        </div>
+
+        <div class="card card-success mb-2 yd">
+          <div class="card-block">
+            <h4>Yards:</h4>
+            <div id="yardOutput"></div>
+          </div>
+        </div>
+
+        <div class="card card-danger mb-2 ft">
+          <div class="card-block">
+            <h4>Feet:</h4>
+            <div id="feetOutput"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </body>
+    <script src="script.js"></script>
+</html>
